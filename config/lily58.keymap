@@ -42,11 +42,11 @@
 
             display-name = "Lower";
             bindings = <
-&trans  &kp EXCLAMATION  &kp AT_SIGN       &kp HASH              &kp DOLLAR             &kp PERCENT                               &kp CARET  &kp AMPERSAND  &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans  &trans           &trans            &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PLUS                                  &trans     &trans         &kp UP_ARROW   &trans                &trans                 &kp PIPE
-&trans  &kp LESS_THAN    &kp GREATER_THAN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS                                 &trans     &kp LEFT       &kp DOWN       &kp RIGHT             &kp COLON              &kp DOUBLE_QUOTES
-&trans  &trans           &trans            &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp UNDERSCORE  &bt BT_PRV    &bt BT_NXT  &trans     &trans         &kp LESS_THAN  &kp GREATER_THAN      &kp QUESTION           &trans
-                                           &trans                &trans                 &trans          &kp EQUAL     &trans      &trans     &trans         &trans
+&trans      &kp EXCLAMATION  &kp AT_SIGN   &kp HASH         &kp DOLLAR            &kp PERCENT                                      &kp CARET  &kp AMPERSAND  &kp ASTERISK    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&trans      &trans           &kp UP_ARROW  &trans           &kp LEFT_BRACE        &kp RIGHT_BRACE                                  &trans     &kp MINUS      &kp UNDERSCORE  &trans                &trans                 &kp PIPE
+&trans      &kp LEFT_ARROW   &kp DOWN      &kp RIGHT_ARROW  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                            &trans     &kp EQUAL      &kp PLUS        &kp RIGHT             &kp COLON              &kp DOUBLE_QUOTES
+&caps_word  &trans           &trans        &trans           &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &bt BT_PRV    &bt BT_NXT  &trans     &trans         &kp LESS_THAN   &kp GREATER_THAN      &kp QUESTION           &caps_word
+                                           &trans           &trans                &trans                 &trans        &trans      &trans     &trans         &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
